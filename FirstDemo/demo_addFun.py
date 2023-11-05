@@ -1,2 +1,2 @@
-import FirstDemo
-print(FirstDemo.addFun(12, 32))
+import addFun
+print(addFun.sum(12, 32))
