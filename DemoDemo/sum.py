@@ -8,7 +8,7 @@ print("Результат: ", s)
 """ 2. Ожидаются два вещественных числа """
 n1 = input("Enter the first number:  ")
 n2 = input("Enter the second number: ")
-n3 = int(n1) + float(n2)
+n3 = int(n1) + float(n2)  # так делать не надо!!!!
 n4 = int(n3)
 print("S = ", n3, " или ", n4)
 
