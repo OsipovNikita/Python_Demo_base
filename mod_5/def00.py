@@ -18,10 +18,13 @@ def sum_of_cubes(x, y):  # Глобальная функция (1)
 print(sum_of_cubes(2,4))
 
 class Car:
+    def __init__(self, x):
+        self.x = x
+
     def move(self, x):  # Метод (3)
         self.x += x
 
-my_car = Car()
+my_car = Car(1)
 my_car.move(5)
 print(my_car.x)
 
