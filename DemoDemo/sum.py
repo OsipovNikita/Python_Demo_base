@@ -1,3 +1,7 @@
+import  FirstDemo.addFun as fd
+
+a = fd.sum(3,4)
+print(a)
 """ 1. Ожидаются два целых числа """
 a = int(input("Введите первое слагаемое: "))
 b = int(input("Введите второе слагаемое: "))
