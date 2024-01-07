@@ -7,6 +7,7 @@ myfile.seek(0)
 for line in myfile:
     print((line.rstrip()))
 
+#print(myfile.__next__())  # StopIteration.
 myfile.close()
 
 

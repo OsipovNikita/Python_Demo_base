@@ -2,6 +2,10 @@ import os
 ''' os.getcwd() возвращает текущую рабочую директорию
 Current Working Directory (текущая рабочая директория)'''
 dirfile = os.getcwd()
+#os.mkdir("ded")
+print(os.listdir('arg_cmd_demo'))
+print(os.listdir(path='.'))
+
 '''глобальная перемення __file__ - возвращает относительный
 путь файла скрипта относительно рабочей директории'''
 filePath = __file__
