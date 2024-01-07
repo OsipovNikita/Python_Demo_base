@@ -1,4 +1,4 @@
-def sum(a, b):
+def sum(a, b) -> int:
     return (a + b)
 
 if __name__ == "__main__":
